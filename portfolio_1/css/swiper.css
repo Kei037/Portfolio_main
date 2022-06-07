@@ -1,0 +1,118 @@
+/* first-slide area */
+.swiper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  width: 33.3%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  text-align: left;
+}
+
+.swiper-slide h3 {
+  font-size: 18px;
+  color: #EE1C23;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.ndate {
+  display: block;
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.swiper-slide a p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #393939;
+}
+
+.swiper-pagination {
+  z-index: 3;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  position: absolute;
+  width: 710px;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: right;
+}
+
+/* second-slide area */
+.second-swiper {
+  position: relative;
+  width: 450px;
+  height: 100%;
+  display: block;
+  text-align: left;
+  overflow: hidden;
+}
+
+.second-wrapper {
+  width: 2400px;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+.second-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.second-slide img {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.second-slide {
+  display: block;
+  width: 100%;
+  height: 100%;
+  float: left;
+  object-fit: cover;
+}
